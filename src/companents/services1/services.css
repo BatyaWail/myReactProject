@@ -1,0 +1,9 @@
+.oneService{
+    border: 2px solid blue;
+}
+#cardImg{
+    font-size: 6vh;
+    padding-top: 0.5vh;
+    text-align: center;
+    color: red;
+}
