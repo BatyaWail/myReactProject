@@ -15,15 +15,15 @@ class ServiceStore {
     service1 = {
         id: 1,
         name: "ציורי קומיקס",
-        description: "לדמויות ומסרים שיחקקו עמוק בלב ",
-        price: 500,
+        description: "דמויות ומסרים שיחקקו עמוק בלב, על ידי ציור הקומיקס",
+        price: 75,
         duration: 60,
         img: i1
     }
     service2 = {
         id: 2,
         name: "ציורים בטעם של פעם",
-        description: "להרגיש את העבר, לאהוב, להתחבר--מכניס אהבת תורה לילדים הרכים",
+        description: "להרגיש את העבר, לאהוב, להתחבר מכניס אהבת תורה לילדים הרכים",
         price: 40,
         duration: 20,
         img: i3

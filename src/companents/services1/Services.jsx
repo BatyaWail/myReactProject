@@ -26,7 +26,7 @@ const Services = (observer(() => {
                 {
                     ServiceStore.serviceArr.map((x1, key) => (//איפה שמים את ה-key
                         <>
-                            <Card sx={{ width: 400 }}>
+                            <Card sx={{ width: 400 }} style={{margin: '2vh'}}>
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"
@@ -37,19 +37,19 @@ const Services = (observer(() => {
                                     />
                                     <CardContent >
                                         <Typography gutterBottom variant="h4" component="div">
-                                            סוג שירות: {x1.name}
+                                             {x1.name}
                                         </Typography>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            קוד שירות: {x1.id}
+                                            קוד ציור: {x1.id}
                                         </Typography>
                                         <Typography gutterBottom variant="h7" component="div">
                                             מחיר:  {x1.price}
                                         </Typography>
                                         <Typography gutterBottom variant="h7" component="div">
-                                            משך זמן:  {x1.duration}
+                                             משך זמן:  {x1.duration}
                                         </Typography>
-                                        <Typography gutterBottom variant="h7" component="div">
-                                            תיאור:  {x1.description}
+                                        <Typography gutterBottom variant="h9" component="div">
+                                           {x1.description}
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>
